@@ -12,7 +12,7 @@ can be inputted into the multiQC app.
 
 The threshold to predict female sex phenotype is currently set to
 70 which is the case where all SNPs of X chromosome are present. If this
-is not the case, then the this threshold should be amended appriopriate
+is not the case, then this threshold should be amended appropriately
 to the number of SNP probes present for the assay.
 
 ## What apps are used in this workflow?
