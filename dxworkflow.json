@@ -1,0 +1,26 @@
+{
+  "name": "somalier_workflow_v1.0.0",
+  "title": "somalier_workflow_v1.0.0",
+  "stages": [
+    {
+      "id": "stage-G9Z2B8841bQY907z1ygq7K9x",
+      "executable": "applet-G5kKKFj433Gpv6Kp1136V5G5",
+      "folder": "somalier_relate_v1.0.3"
+    },
+    {
+      "id": "stage-G9Z2B7Q41bQg2Jy40zVqqGg4",
+      "executable": "applet-G5Z0Q78433Gj16QGJP838zxg",
+      "folder": "somalier_relate2multiqc_v1.0.1",
+      "input": {
+        "female_threshold": 70,
+        "male_threshold": 1,
+        "somalier_input": {
+          "$dnanexus_link": {
+            "stage": "stage-G9Z2B8841bQY907z1ygq7K9x",
+            "outputField": "samples_tsv"
+          }
+        }
+      }
+    }
+  ]
+}
