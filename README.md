@@ -1,7 +1,7 @@
 # eggd_somalier_workflow
 
 DNAnexus somalier workflow applicable to any pipeline which has somalier
-output files from somalier_extract. The outputs of this workflow
+output files from [somalier_extract](https://github.com/eastgenomics/eggd_somalier_extract). The outputs of this workflow
 can be inputted into the multiQC app.
 
 -------
@@ -11,7 +11,7 @@ can be inputted into the multiQC app.
 
 ## What are the limitations of this workflow?
 
-The threshold to predict female sex phenotype is currently set to
+The x_het call threshold to predict female sex phenotype is currently set to
 70 which is the case where all SNPs of X chromosome are present. If this
 is not the case, then this threshold should be amended appropriately
 to the number of SNP probes present for the assay.
