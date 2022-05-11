@@ -12,7 +12,7 @@ can be inputted into the multiQC app.
 ## What are the limitations of this workflow?
 
 The x_het call threshold to predict female sex phenotype is currently set to
-70 which is the case where all SNPs of X chromosome are present. If this
+70 which is the case where all SNPs of X chromosome (required for somalier to extract) are present. If this
 is not the case, then this threshold should be amended appropriately
 to the number of SNP probes present for the assay.
 
