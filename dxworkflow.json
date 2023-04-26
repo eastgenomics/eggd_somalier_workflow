@@ -1,11 +1,11 @@
 {
-  "name": "somalier_workflow_v1.0.0",
-  "title": "somalier_workflow_v1.0.0",
+  "name": "somalier_workflow_v1.1.0",
+  "title": "somalier_workflow_v1.1.0",
   "stages": [
     {
       "id": "stage-G9Z2B8841bQY907z1ygq7K9x",
-      "executable": "applet-G5kKKFj433Gpv6Kp1136V5G5",
-      "folder": "somalier_relate_v1.0.3"
+      "executable": "app-eggd_somalier_relate/1.1.0",
+      "folder": "somalier_relate_v1.1.0"
     },
     {
       "id": "stage-G9Z2B7Q41bQg2Jy40zVqqGg4",

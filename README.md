@@ -20,5 +20,5 @@ to the number of SNP probes present for the assay.
 
 |  App 	| Version  	|
 |---	|---	|
-|somalier_relate       |1.0.3|
+|somalier_relate       |1.1.0|
 |somalier_relate2multiqc   |1.0.1|
