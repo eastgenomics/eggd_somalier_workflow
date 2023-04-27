@@ -3,12 +3,12 @@
   "title": "somalier_workflow_v1.1.0",
   "stages": [
     {
-      "id": "stage-G9Z2B8841bQY907z1ygq7K9x",
+      "id": "stage-somalier_relate",
       "executable": "app-eggd_somalier_relate/1.1.0",
       "folder": "somalier_relate_v1.1.0"
     },
     {
-      "id": "stage-G9Z2B7Q41bQg2Jy40zVqqGg4",
+      "id": "stage-somalier_relate2multiqc",
       "executable": "applet-G5Z0Q78433Gj16QGJP838zxg",
       "folder": "somalier_relate2multiqc_v1.0.1",
       "input": {
@@ -16,7 +16,7 @@
         "male_threshold": 1,
         "somalier_input": {
           "$dnanexus_link": {
-            "stage": "stage-G9Z2B8841bQY907z1ygq7K9x",
+            "stage": "stage-somalier_relate",
             "outputField": "samples_tsv"
           }
         }
