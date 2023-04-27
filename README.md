@@ -6,7 +6,7 @@ can be inputted into the multiQC app.
 
 -------
 
-## Current Version: 1.0.0
+## Current Version: 1.1.0
 ![Image of workflow](img/somalier_workflow.jpg)
 
 ## What are the limitations of this workflow?
